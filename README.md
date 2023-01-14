@@ -6,6 +6,8 @@ Browse the menu on this fully responsive menu website before ordering in McDonal
 
 ➡️ UI Design on Figma: [link](https://www.figma.com/file/xOylO8RCruiwouwRfV08mu/McDonald-Food-Website?node-id=0%3A1&t=QHFgSVY3adgv5FAt-1)
 
+- Website Demo : [link](https://mcdonalds-menu-web.vercel.app/)
+
 ## Overview
 
 This is the first mini-project for my [100-days-of-code](https://github.com/terryhycheng/100-days-of-code) challenge. The main focus is to practise front-end development with `ReactJS` and testing framework like `Jest` or `Vitest`, `Testing Library React` and `Cypress`.
@@ -31,3 +33,4 @@ yarn dev
 - ReactJS with Vite
 - Vitest
 - Testing Library React
+- Vercel
