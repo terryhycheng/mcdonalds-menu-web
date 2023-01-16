@@ -6,7 +6,7 @@ Browse the menu on this fully responsive menu website before ordering in McDonal
 
 ➡️ UI Design on Figma: [link](https://www.figma.com/file/xOylO8RCruiwouwRfV08mu/McDonald-Food-Website?node-id=0%3A1&t=QHFgSVY3adgv5FAt-1)
 
-- Website Demo : [link](https://mcdonalds-menu-web.vercel.app/)
+➡️ Website Demo : [link](https://mcdonalds-menu-web.vercel.app/)
 
 ## Overview
 
