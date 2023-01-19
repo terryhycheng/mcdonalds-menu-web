@@ -1,16 +1,17 @@
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FC, FormEvent, useState } from "react";
 
-export const SearchBar = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+type PropsType = {
+  searchTerm: string;
+  setSearchTerm: React.Dispatch<React.SetStateAction<string>>;
+};
 
+export const SearchBar: FC<PropsType> = ({ searchTerm, setSearchTerm }) => {
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log(`Search term: ${searchTerm}`);
-    setSearchTerm("");
   };
 
   return (
